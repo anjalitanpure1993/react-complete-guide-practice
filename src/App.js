@@ -1,8 +1,11 @@
+import ExpenseItem from './components/ExpenseItem';
+
 const App = () => {
   return (
-    <>
-      <h1>My First React App</h1>
-    </>
+    <div className="parent-wrapper">
+     
+      <ExpenseItem />
+    </div>
   );
 }
 

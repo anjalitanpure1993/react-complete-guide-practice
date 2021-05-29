@@ -1,0 +1,27 @@
+.expense-wrapper {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 2px 5px #c3c3c3;
+  border-radius: 10px;
+  height: 70px;
+  padding: 0 10px;
+}
+
+.expense-date {
+  width: 20%;
+}
+
+.expense-desc {
+  display: flex;
+  width: 80%;
+  align-items: center;
+}
+
+.expense-desc h2 {
+  margin-right: auto;
+}
+
+.expense-price {
+  align-self: center;
+}
